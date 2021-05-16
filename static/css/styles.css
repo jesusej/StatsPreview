@@ -31,18 +31,39 @@ ul {
   padding: 0;
 }
 
-/* Card content */
+/* Helpers */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Card */
 
 .card {
   margin: 6.5vw;
-}
-
-.cardContent {
-  padding: 6vw 6vw 0 6vw;
   background-color: hsl(244, 38%, 16%);
+
+  border-radius: 10px;
 
   display: flex;
   flex-direction: column;
+}
+
+/* Card Image */
+
+.cardImage {
+  background-color: hsl(277, 64%, 61%);
+  height: 25.1vh;
+  background-image: url("../images/image-header-mobile.jpg");
+  background-blend-mode:multiply; /*luminosity, multiply*/
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+/* Card Content */
+
+.cardContent{
+  padding: 2vh 6vw 0 6vw;
 }
 
 .main {
