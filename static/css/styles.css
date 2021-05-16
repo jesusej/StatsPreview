@@ -1,0 +1,59 @@
+body{
+  background-color: hsl(233, 47%, 7%);
+  color: hsl(0, 0%, 100%);
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+
+  line-height: 1.15;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+b {
+  color: hsl(277, 64%, 61%);
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+h2 {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Card content */
+
+.card {
+  margin: 6.5vw;
+}
+
+.cardContent {
+  padding: 6vw 6vw 0 6vw;
+  background-color: hsl(244, 38%, 16%);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  line-height: 1.75;
+
+  padding: 0 2vw;
+}
+
+.stats p{
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
